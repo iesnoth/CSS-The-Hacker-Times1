@@ -4,10 +4,17 @@
     border-color: #eee;
 }
 
-body {
+html {
     background-color: #eee;
+}
+
+.newspaper-container {
+    background-color: white;
     width: 700px;
     margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgb(195, 195, 195);
 }
 
 /* Date in top left */
@@ -22,8 +29,8 @@ body {
 h1 {
     text-align: center;
     font-family: Abril Fatface;
-    font-size:45px;
-    margin:10px 0px 15px 0px;
+    font-size: 45px;
+    margin: 10px 0px 15px 0px;
 }
 
 /* Nav bar */
@@ -40,7 +47,7 @@ li {
 
 hr {
     margin: 5px 0px 0px 0px;
-    border: 1px solid rgb(204, 204, 204);
+    border: 1px solid rgb(222, 221, 221);
 }
 
 a {
@@ -48,13 +55,61 @@ a {
     color: #777;
 }
 
-/* Effects article text and nav bar */
+/* Main article */
+main h2 {
+    font-family: Roboto Slab;
+    font-size: medium;
+    margin-bottom: 7px;
+}
+
+main h5 {
+    color: rgb(210, 1, 1);
+    font-size: 14px;
+    font-family: Abril Fatface;
+    margin: 0px 0px 25px 0px;
+}
+
+#keys-pic {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 15px;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* Affects article text and nav bar */
 .body-text {
     font-family: Source Sans Pro;
 }
 
+/* Mini articles */
 section {
     display: inline-block;
-    width: 300px;
+    width: 330px;
+}
+
+section h4 {
+    font-family: Roboto Slab;
+    font-size: 17px;
+    text-align: left;
+}
+
+section img {
+    width: 100%;
+}
+
+section p {
+    font-size: 15px;
     text-align: justify;
+    width: 95%;
+    margin:auto;
+}
+
+#caffeine {
+    margin-left: 30px;
 }
