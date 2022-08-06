@@ -34,6 +34,12 @@ h1 {
 }
 
 /* Nav bar */
+.nav-bar{
+    position:sticky;
+    top:0px;
+    background-color:white;
+}
+
 ul {
     padding-left: 20px;
     margin: 0px;
@@ -133,4 +139,52 @@ section p {
 
 #middle{
     margin:0px 34px;
+}
+
+/* Footer */
+footer{
+    width:700px;
+    height:200px;
+    margin:auto;
+    background-color:rgb(69, 69, 69);
+    position:relative;
+    bottom:20px;
+    z-index:-1;
+    display:inline-flex;
+    border-radius:15px;
+}
+
+/* #tagline{
+    display:block;
+} */
+
+#tagline h5{
+    margin:0px 0px 0px 0px;
+    padding-top:40px;
+    padding-left: 15px;
+    font-family:Abril Fatface;
+}
+
+#tagline p{
+    font-family:Source Sans Pro;
+    /* margin: 0px 0px 40px 0px; */
+    /* padding-left:30px; */
+    font-size:20px;
+}
+#links{
+    font-size:15px;
+    font-family: Source Sans Pro;
+    /* margin:0px; */
+}
+
+/* #footer-container{
+    display:inline-block;
+    width:700px;
+} */
+
+#copyright{
+    text-align:right;
+    font-family:Source Sans Pro;
+    font-size:15px;
+    color:grey;
 }
