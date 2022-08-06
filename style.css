@@ -98,6 +98,7 @@ main p {
 }
 
 /* Mini articles */
+
 section {
     display: inline-block;
     width: 330px;
@@ -177,10 +178,11 @@ footer{
     /* margin:0px; */
 }
 
-/* #footer-container{
-    display:inline-block;
-    width:700px;
-} */
+#flex-container{
+    display:flex;
+    justify-content:flex-start;
+    align-content:space-between; 
+}
 
 #copyright{
     text-align:right;
